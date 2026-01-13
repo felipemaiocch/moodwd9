@@ -1,0 +1,35 @@
+# Robots.txt for MOOD WD9
+# Last updated: 2026-01-12
+
+# Allow all bots
+User-agent: *
+Allow: /
+Disallow: /src/
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /dist/
+Disallow: /build/
+Disallow: /*.map
+Disallow: /.env
+Disallow: /.env.local
+Disallow: /*.log
+
+# Crawl delay to be nice to servers
+Crawl-delay: 1
+
+# Allow specific crawlers
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://moodwd9.com.br/sitemap.xml
+Sitemap: https://moodwd9.com.br/sitemap-pages.xml

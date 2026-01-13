@@ -1,0 +1,8 @@
+# Netlify/Vercel redirects for SPA
+# All routes should redirect to index.html for proper SPA routing
+
+# Redirect all hash routes to proper page (optional)
+/#!/                          /           301
+
+# Catch-all for SPA routing
+/*                            /index.html 200
