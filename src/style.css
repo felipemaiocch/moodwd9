@@ -42,7 +42,13 @@ body {
 }
 
 body {
-  background-color: var(--bg-color);
+  background-color: transparent;
+  position: relative;
+}
+
+#main-content {
+  position: relative;
+  z-index: 1;
 }
 
 body {
@@ -169,7 +175,7 @@ body {
   left: 0;
   width: 100vw;
   height: 100vh;
-  z-index: -1;
+  z-index: 0;
   pointer-events: none;
   opacity: 1;
   visibility: visible;
@@ -432,6 +438,7 @@ body {
   padding: 0 1rem;
   width: 100%;
   box-sizing: border-box;
+  position: relative;
 }
 
 .hero h1 {
