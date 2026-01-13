@@ -406,7 +406,7 @@ body {
   }
 
   .scroll-indicator {
-    left: 1.5rem;
+    left: 0;
     bottom: 2rem;
   }
 
@@ -444,6 +444,7 @@ body {
   width: 100%;
   box-sizing: border-box;
   position: relative;
+  text-align: left;
 }
 
 .hero h1 {
@@ -456,6 +457,7 @@ body {
   word-wrap: break-word;
   overflow-wrap: break-word;
   hyphens: auto;
+  text-align: center;
   /* Premium gradient text effect */
   background: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0.7) 100%);
   -webkit-background-clip: text;
@@ -476,7 +478,7 @@ body {
 
 .scroll-indicator {
   position: absolute;
-  left: 2rem;
+  left: 0;
   bottom: 2rem;
   display: flex;
   flex-direction: column;
@@ -841,11 +843,11 @@ h2 {
 
   .clients-logos {
     grid-template-columns: repeat(3, 1fr);
-    gap: 0.8rem;
+    gap: 1rem;
   }
 
   .client-logo {
-    padding: 0.6rem;
+    padding: 0.75rem;
   }
 }
 
