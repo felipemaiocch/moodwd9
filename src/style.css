@@ -362,8 +362,26 @@ body {
     grid-column: span 1;
   }
 
+  .hero {
+    padding: 0 1.5rem;
+    overflow-x: hidden;
+  }
+
+  .hero-content {
+    padding: 0 1rem;
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
   .hero h1 {
-    font-size: 14vw;
+    font-size: clamp(2rem, 8vw, 4rem);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
     /* Prevents overflow */
   }
 
@@ -386,6 +404,9 @@ body {
   text-align: center;
   position: relative;
   padding: 0 2rem;
+  overflow-x: hidden;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .hero-content {
@@ -393,6 +414,9 @@ body {
   /* Constrain for readability */
   margin: 0 auto;
   z-index: 10;
+  padding: 0 1rem;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .hero h1 {
@@ -401,6 +425,10 @@ body {
   line-height: 1.1;
   letter-spacing: -0.03em;
   margin-bottom: 2rem;
+  text-transform: none;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
   /* Premium gradient text effect */
   background: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0.7) 100%);
   -webkit-background-clip: text;
@@ -1403,9 +1431,29 @@ a.contact-value:hover {
   background: rgba(255, 255, 255, 0.02);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
+  .hero {
+    padding: 0 1rem;
+    overflow-x: hidden;
+  }
+
+  .hero-content {
+    padding: 0 0.5rem;
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
   .hero h1 {
-    font-size: 15vw;
+    font-size: clamp(1.5rem, 6vw, 2.5rem);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 1.3;
+    padding: 0;
   }
 
   .contact-wrapper {
