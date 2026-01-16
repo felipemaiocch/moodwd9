@@ -1400,7 +1400,9 @@ a.contact-value:hover {
 
 @media (max-width: 768px) {
   .hero h1 {
-    font-size: 15vw;
+    font-size: clamp(2.2rem, 10vw, 3rem);
+    max-width: 90vw;
+    margin: 0 auto;
   }
 
   .contact-wrapper {
