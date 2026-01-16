@@ -26,12 +26,9 @@
   box-sizing: border-box;
 }
 
-html {
-  background-color: var(--bg-color);
-}
-
 html,
 body {
+  background-color: var(--bg-color);
   color: var(--text-color);
   font-family: var(--font-body);
   font-size: var(--body-size);
@@ -39,20 +36,6 @@ body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-body {
-  background-color: transparent;
-  position: relative;
-}
-
-#main-content {
-  position: relative;
-  z-index: 1;
-}
-
-body {
-  background-color: var(--bg-color);
 }
 
 /* Nav CTA */
@@ -177,9 +160,6 @@ body {
   height: 100vh;
   z-index: 0;
   pointer-events: none;
-  opacity: 1;
-  visibility: visible;
-  display: block;
 }
 
 /* Navigation */
@@ -382,32 +362,9 @@ body {
     grid-column: span 1;
   }
 
-  .hero {
-    padding: 0 1.5rem;
-    overflow-x: hidden;
-  }
-
-  .hero-content {
-    padding: 0 1rem;
-    max-width: 100%;
-    width: 100%;
-    box-sizing: border-box;
-  }
-
   .hero h1 {
-    font-size: clamp(2.5rem, 10vw, 5rem);
-    overflow-wrap: break-word;
-    word-break: keep-all;
-    hyphens: none;
-    max-width: 100%;
-    width: 100%;
-    box-sizing: border-box;
+    font-size: 14vw;
     /* Prevents overflow */
-  }
-
-  .scroll-indicator {
-    left: 1.5rem;
-    bottom: 2rem;
   }
 
   .section {
@@ -429,10 +386,6 @@ body {
   text-align: center;
   position: relative;
   padding: 0 2rem;
-  overflow-x: hidden;
-  width: 100%;
-  box-sizing: border-box;
-  background: transparent;
 }
 
 .hero-content {
@@ -440,11 +393,6 @@ body {
   /* Constrain for readability */
   margin: 0 auto;
   z-index: 10;
-  padding: 0 1rem;
-  width: 100%;
-  box-sizing: border-box;
-  position: relative;
-  text-align: left;
 }
 
 .hero h1 {
@@ -453,11 +401,6 @@ body {
   line-height: 1.1;
   letter-spacing: -0.03em;
   margin-bottom: 2rem;
-  text-transform: none;
-  overflow-wrap: break-word;
-  word-break: keep-all;
-  hyphens: none;
-  text-align: center;
   /* Premium gradient text effect */
   background: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0.7) 100%);
   -webkit-background-clip: text;
@@ -478,14 +421,12 @@ body {
 
 .scroll-indicator {
   position: absolute;
-  left: 2rem;
   bottom: 2rem;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   gap: 1rem;
   opacity: 0.6;
-  z-index: 10;
 }
 
 .scroll-indicator .line {
@@ -786,8 +727,6 @@ h2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
-  justify-items: center;
-  align-items: center;
 }
 
 .client-logo {
@@ -829,13 +768,6 @@ h2 {
     gap: 3rem;
   }
 
-  .clients-logos {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-    justify-items: center;
-    align-items: center;
-  }
-
   .clients-content p {
     max-width: 100%;
   }
@@ -849,13 +781,10 @@ h2 {
   .clients-logos {
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
-    justify-items: center;
-    align-items: center;
   }
 
   .client-logo {
-    padding: 0.75rem;
-    max-width: 100%;
+    padding: 0.8rem;
   }
 }
 
@@ -1469,29 +1398,9 @@ a.contact-value:hover {
   background: rgba(255, 255, 255, 0.02);
 }
 
-@media (max-width: 480px) {
-  .hero {
-    padding: 0 1rem;
-    overflow-x: hidden;
-  }
-
-  .hero-content {
-    padding: 0 0.5rem;
-    max-width: 100%;
-    width: 100%;
-    box-sizing: border-box;
-  }
-
+@media (max-width: 768px) {
   .hero h1 {
-    font-size: clamp(2rem, 9vw, 4rem);
-    overflow-wrap: break-word;
-    word-break: keep-all;
-    hyphens: none;
-    max-width: 100%;
-    width: 100%;
-    box-sizing: border-box;
-    line-height: 1.3;
-    padding: 0;
+    font-size: 15vw;
   }
 
   .contact-wrapper {
