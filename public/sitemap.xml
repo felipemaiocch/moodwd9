@@ -16,6 +16,19 @@
     <mobile:mobile/>
   </url>
 
+  <!-- Felipe Maiocch Profile Page -->
+  <url>
+    <loc>https://wd9.com.br/felipe-maiocch.html</loc>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://wd9.com.br/assets/felipe-maiocch-portrait.jpg</image:loc>
+      <image:title>Felipe Maiocch</image:title>
+    </image:image>
+    <mobile:mobile/>
+  </url>
+
   <!-- Privacy Policy -->
   <url>
     <loc>https://moodwd9.com.br/politica-de-privacidade.html</loc>

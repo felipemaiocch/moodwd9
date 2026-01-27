@@ -6,7 +6,10 @@ export default defineConfig({
     outDir: 'dist',
     emptyOutDir: true,
     rollupOptions: {
-      input: './index.html'
+      input: {
+        main: './index.html',
+        felipe: './felipe-maiocch.html'
+      }
     },
     chunkSizeWarningLimit: 1000,
     reportCompressedSize: true
