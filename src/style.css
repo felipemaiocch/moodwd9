@@ -48,6 +48,7 @@ body {
   isolation: isolate;
   max-width: 100vw;
   overflow: hidden;
+  z-index: 1;
 }
 
 .felipe-page .hero-grid {
@@ -524,11 +525,17 @@ body {
 
   .felipe-page .hero-photo {
     order: -1;
+    margin-top: 80px;
   }
 
-  .felipe-page .hero-felipe {
-    padding-top: 140px;
-    padding-bottom: 2.5rem;
+  .felipe-page .photo-frame {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .felipe-page .photo-frame img {
+    max-height: 360px;
+    object-fit: cover;
   }
 }
 
