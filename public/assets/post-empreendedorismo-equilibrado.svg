@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Empreendedorismo equilibrado</title>
+  <desc id="desc">Capa editorial WD9 para artigo sobre empreendedorismo equilibrado.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6f6f6"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect x="80" y="88" width="1040" height="500" rx="34" fill="#050505"/>
+  <circle cx="970" cy="160" r="70" fill="#fa6604"/>
+  <path d="M125 488h420" stroke="#fa6604" stroke-width="12" stroke-linecap="round"/>
+  <text x="125" y="180" fill="#fa6604" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">ARTIGO</text>
+  <text x="125" y="315" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="800">Empreendedorismo</text>
+  <text x="125" y="405" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="800">equilibrado</text>
+  <text x="125" y="555" fill="#cfcfcf" font-family="Arial, Helvetica, sans-serif" font-size="32">Resiliencia, etica e marketing para empresas sustentaveis.</text>
+</svg>

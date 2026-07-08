@@ -1264,11 +1264,12 @@ h2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
-  justify-items: center;
+  justify-items: stretch;
   align-items: center;
 }
 
 .client-logo {
+  width: 100%;
   aspect-ratio: 1;
   background: #ffffff;
   border: 1px solid #e5e5e5;
@@ -2699,7 +2700,7 @@ section.cases iframe {
   }
 
   .post-card {
-    padding: 1.5rem;
+    padding: 0;
   }
 }
 
