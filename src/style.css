@@ -2547,8 +2547,8 @@ section.cases iframe {
 /* Posts Grid */
 .posts-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.5rem;
   margin-top: 3rem;
 }
 
@@ -2691,6 +2691,12 @@ section.cases iframe {
 .post-engagement {
   color: #999;
   font-size: 0.75rem;
+}
+
+@media (max-width: 1200px) {
+  .posts-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 768px) {
